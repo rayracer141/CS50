@@ -1,0 +1,85 @@
+.bg-light {
+  background-color: #FFFBF0 !important; }
+
+h1, h2, h3, h4 {
+  text-align: center;
+  padding: 15px;
+  color: darkslategrey; }
+
+.hero-section-text h1 {
+  color: white !important; }
+
+a {
+  color: cadetblue; }
+
+#logo {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 20%; }
+
+.hero-section {
+  background: url(images/DSC02094.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+@media print {
+  .hero-section {
+    display: none; } }
+@media only screen and (max-width: 767px) {
+  .row div {
+    text-align: center; } }
+p {
+  text-align: center;
+  padding: 15px auto; }
+
+header, body {
+  background-color: white; }
+
+body {
+  line-height: 2; }
+
+section {
+  margin: 15px 25px;
+  padding: 15px 25px;
+  background-color: #FFFBF0; }
+
+header .container {
+  background-color: lightgrey; }
+
+#navBar div.col-3 {
+  border-radius: 5px;
+  background-color: #FFFBF0; }
+
+.hero-section {
+  height: 350px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px darkslategrey; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: auto;
+  background-color: #FFFBF0;
+  width: auto;
+  padding-right: 20px;
+  z-index: 1; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+div.row {
+  padding-bottom: 10px; }
+
+/*# sourceMappingURL=style.css.map */
